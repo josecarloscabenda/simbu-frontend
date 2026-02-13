@@ -16,8 +16,8 @@ export default function BrandLogo({ variant = "full", className = "", href = "/"
       <Image
         src={src}
         alt="Simbu"
-        width={variant === "symbol" ? 70 : 280}
-        height={64}
+        width={variant === "symbol" ? 16 : 64}
+        height={24}
         priority
       />
     </Link>
